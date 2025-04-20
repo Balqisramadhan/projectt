@@ -40,19 +40,31 @@ accounts = [
         'api_id': 24174295,
         'api_hash': '796dfc5ac61ac4da26aec83b24e9fa41',
         'phone': '+6285352582288',
-        'is_active': True 
+        'is_active': True
     },
     {
         'api_id': 22735566,
         'api_hash': 'f49c39582ed54f94745c2207e73e73b8',
         'phone': '+6285692930918',
-        'is_active': True 
+        'is_active': True
     },
-     {
+    {
         'api_id': 23729436,
         'api_hash': 'e4969d3f75604147ce601eaf3fa05490',
         'phone': '+6285714835207',
-        'is_active': True 
+        'is_active': True
+    },
+    {
+        'api_id': 28877492,
+        'api_hash': 'f6a544d4f54cde288bc754ba14e72644',
+        'phone': '+62859218602519',
+        'is_active': True
+    },
+    {
+        'api_id': 21916615,
+        'api_hash': 'e84008ebbd98c281737873c1019cdd6e',
+        'phone': '+62859218602779',
+        'is_active': True
     }
 ]
 
