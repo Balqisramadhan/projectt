@@ -92,6 +92,7 @@ async def get_message_from_link(client, link):
         return None
 
 # ========== FORWARD PESAN ==========
+# ========== FORWARD PESAN ==========
 async def forward_from_link_for_account(account, link):
     if not account['is_active']:
         print(f"❌ Akun {account['phone']} nonaktif. Skip.\n")
@@ -153,9 +154,10 @@ async def forward_from_link_for_account(account, link):
                         print(f"⚠️ Gagal forward ke {group_link}: {e}")
                     continue
 
-            delay = random.randint(120, 180)
+            delay = random.randint(120, 140)  # Update delay range
             print(f"⏳ Delay {delay} detik sebelum ulangi forward untuk {account['phone']}")
             await asyncio.sleep(delay)
+
 
     except Exception as e:
         print(f"❌ ERROR umum akun {account['phone']}: {e}")
